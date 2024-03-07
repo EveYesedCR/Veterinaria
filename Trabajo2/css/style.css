@@ -1,0 +1,153 @@
+@font-face{
+    src: url(../Bootstrap_Cancat/Holyfat.ttf);
+    font-family: Holyfat;
+}
+body{
+    background: url(../Bootstrap_Cancat/fondo1.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.espacio{
+    padding: 1rem;
+}
+
+.texto{
+    font-weight:bolder
+}
+
+.tituloEsp{
+    padding: 6px 4px ;
+}
+
+.nav{
+    background-color: white;
+    border-radius: 1rem; 
+    --bs-nav-link-hover-color: rgb(9, 192, 9);
+}
+
+
+.nav-link{
+    color: rgb(9, 243, 9);
+    font-family: Holyfat;
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    background-color: rgb(9, 243, 9);
+    color: white; 
+    border-radius: 1rem; 
+}
+
+.titulo1{
+    color: rgb(9, 243, 9); 
+}
+
+.titulo2{
+    color: rgb(9, 243, 9); 
+}
+.parrafo1{
+    color: rgb(40, 164, 180);  
+    text-align: justify; 
+    width: 30rem; 
+}
+
+button{
+    background-color: rgb(9, 243, 9);
+    color: white; 
+    border: none;
+    border-radius: 50%;
+    width: 13rem;
+    height: 5rem;
+}
+
+button:hover{
+ filter: brightness(2.0);
+}
+
+.inscribete{
+    width: 10rem;
+    height: 2rem; 
+}
+
+
+.obj{
+    background-color: rgba(255, 255, 255, 0.701);
+    border-radius: 20px;
+    width: 35rem;
+    font-family: Holyfat;
+    color: rgb(9, 243, 9);
+
+}
+
+.objTex{
+    background-color: rgba(9, 243, 9, 0.575);
+    padding: 1.5rem 2.5rem;
+    border-radius: 13px;
+    width: 35rem;
+    color: white;
+    text-align: justify;
+}
+
+.videos{
+    width: 35rem;
+    height: 60%;
+}
+
+.flecha{
+top: 30%
+}
+
+.temas{
+    background-color: rgba(255, 255, 255, 0.701);
+    border-radius: 20px;
+    width: 35rem;
+    font-family: Holyfat;
+    color: rgb(9, 243, 9);
+}
+.temes{
+    background-color: rgba(9, 243, 9, 0.575);
+    padding: 1.5rem 2.5rem;
+    border-radius: 13px;
+    width: 35rem;
+    color: white;    
+}
+
+.benefi{
+    font-family: Holyfat;
+    color: rgb(9, 243, 9);
+}
+
+.imgCir{
+    width: 14rem;
+    height: 12rem;
+}
+
+.imgCir:hover{
+ filter: brightness(1.5);
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.701);
+}
+
+#carouselExampleIndicators{
+    width: 20rem;
+    height: 15rem;
+}
+
+.tama{
+    width: 5rem;
+    height: 3rem;
+}
+
+svg{
+    color: black;
+    transition: 0.2s;
+}
+
+svg:hover{
+    color: rgb(9, 243, 9);
+}
